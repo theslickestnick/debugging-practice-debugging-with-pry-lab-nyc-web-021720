@@ -1,6 +1,7 @@
 def snake_it_up(string)
+  snakery = 10 * "s"
   if string[0] == "s"
-    puts (10 * "s") + string
+    snakery + string 
   else
     string
   end
